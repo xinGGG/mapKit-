@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0620"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B08E35211A7505F500CD8086"
+               BuildableName = "04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;.app"
+               BlueprintName = "04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;"
+               ReferencedContainer = "container:04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B08E353A1A7505F600CD8086"
+               BuildableName = "04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;Tests.xctest"
+               BlueprintName = "04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;Tests"
+               ReferencedContainer = "container:04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B08E353A1A7505F600CD8086"
+               BuildableName = "04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;Tests.xctest"
+               BlueprintName = "04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;Tests"
+               ReferencedContainer = "container:04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B08E35211A7505F500CD8086"
+            BuildableName = "04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;.app"
+            BlueprintName = "04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;"
+            ReferencedContainer = "container:04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B08E35211A7505F500CD8086"
+            BuildableName = "04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;.app"
+            BlueprintName = "04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;"
+            ReferencedContainer = "container:04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B08E35211A7505F500CD8086"
+            BuildableName = "04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;.app"
+            BlueprintName = "04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;"
+            ReferencedContainer = "container:04.MapKit-&#x663e;&#x793a;&#x5f53;&#x524d;&#x4f4d;&#x7f6e;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

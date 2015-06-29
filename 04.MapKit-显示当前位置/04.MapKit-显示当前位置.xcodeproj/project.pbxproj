@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B08E35281A7505F500CD8086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B08E35271A7505F500CD8086 /* main.m */; };
+		B08E352B1A7505F500CD8086 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B08E352A1A7505F500CD8086 /* AppDelegate.m */; };
+		B08E352E1A7505F500CD8086 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08E352D1A7505F500CD8086 /* ViewController.m */; };
+		B08E35311A7505F500CD8086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08E352F1A7505F500CD8086 /* Main.storyboard */; };
+		B08E35331A7505F500CD8086 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08E35321A7505F500CD8086 /* Images.xcassets */; };
+		B08E35361A7505F500CD8086 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B08E35341A7505F500CD8086 /* LaunchScreen.xib */; };
+		B08E35421A7505F600CD8086 /* _4_MapKit_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B08E35411A7505F600CD8086 /* _4_MapKit_______Tests.m */; };
+		B08E354C1A7506E000CD8086 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08E354B1A7506E000CD8086 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B08E353C1A7505F600CD8086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B08E351A1A7505F500CD8086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B08E35211A7505F500CD8086;
+			remoteInfo = "04.MapKit-显示当前位置";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B08E35221A7505F500CD8086 /* 04.MapKit-显示当前位置.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04.MapKit-显示当前位置.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08E35261A7505F500CD8086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B08E35271A7505F500CD8086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B08E35291A7505F500CD8086 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B08E352A1A7505F500CD8086 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B08E352C1A7505F500CD8086 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B08E352D1A7505F500CD8086 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B08E35301A7505F500CD8086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B08E35321A7505F500CD8086 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B08E35351A7505F500CD8086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B08E353B1A7505F600CD8086 /* 04.MapKit-显示当前位置Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04.MapKit-显示当前位置Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08E35401A7505F600CD8086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B08E35411A7505F600CD8086 /* _4_MapKit_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_MapKit_______Tests.m"; sourceTree = "<group>"; };
+		B08E354B1A7506E000CD8086 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B08E351F1A7505F500CD8086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08E354C1A7506E000CD8086 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08E35381A7505F600CD8086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B08E35191A7505F500CD8086 = {
+			isa = PBXGroup;
+			children = (
+				B08E354B1A7506E000CD8086 /* MapKit.framework */,
+				B08E35241A7505F500CD8086 /* 04.MapKit-显示当前位置 */,
+				B08E353E1A7505F600CD8086 /* 04.MapKit-显示当前位置Tests */,
+				B08E35231A7505F500CD8086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B08E35231A7505F500CD8086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B08E35221A7505F500CD8086 /* 04.MapKit-显示当前位置.app */,
+				B08E353B1A7505F600CD8086 /* 04.MapKit-显示当前位置Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B08E35241A7505F500CD8086 /* 04.MapKit-显示当前位置 */ = {
+			isa = PBXGroup;
+			children = (
+				B08E35291A7505F500CD8086 /* AppDelegate.h */,
+				B08E352A1A7505F500CD8086 /* AppDelegate.m */,
+				B08E352C1A7505F500CD8086 /* ViewController.h */,
+				B08E352D1A7505F500CD8086 /* ViewController.m */,
+				B08E352F1A7505F500CD8086 /* Main.storyboard */,
+				B08E35321A7505F500CD8086 /* Images.xcassets */,
+				B08E35341A7505F500CD8086 /* LaunchScreen.xib */,
+				B08E35251A7505F500CD8086 /* Supporting Files */,
+			);
+			path = "04.MapKit-显示当前位置";
+			sourceTree = "<group>";
+		};
+		B08E35251A7505F500CD8086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B08E35261A7505F500CD8086 /* Info.plist */,
+				B08E35271A7505F500CD8086 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B08E353E1A7505F600CD8086 /* 04.MapKit-显示当前位置Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B08E35411A7505F600CD8086 /* _4_MapKit_______Tests.m */,
+				B08E353F1A7505F600CD8086 /* Supporting Files */,
+			);
+			path = "04.MapKit-显示当前位置Tests";
+			sourceTree = "<group>";
+		};
+		B08E353F1A7505F600CD8086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B08E35401A7505F600CD8086 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B08E35211A7505F500CD8086 /* 04.MapKit-显示当前位置 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B08E35451A7505F600CD8086 /* Build configuration list for PBXNativeTarget "04.MapKit-显示当前位置" */;
+			buildPhases = (
+				B08E351E1A7505F500CD8086 /* Sources */,
+				B08E351F1A7505F500CD8086 /* Frameworks */,
+				B08E35201A7505F500CD8086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04.MapKit-显示当前位置";
+			productName = "04.MapKit-显示当前位置";
+			productReference = B08E35221A7505F500CD8086 /* 04.MapKit-显示当前位置.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B08E353A1A7505F600CD8086 /* 04.MapKit-显示当前位置Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B08E35481A7505F600CD8086 /* Build configuration list for PBXNativeTarget "04.MapKit-显示当前位置Tests" */;
+			buildPhases = (
+				B08E35371A7505F600CD8086 /* Sources */,
+				B08E35381A7505F600CD8086 /* Frameworks */,
+				B08E35391A7505F600CD8086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B08E353D1A7505F600CD8086 /* PBXTargetDependency */,
+			);
+			name = "04.MapKit-显示当前位置Tests";
+			productName = "04.MapKit-显示当前位置Tests";
+			productReference = B08E353B1A7505F600CD8086 /* 04.MapKit-显示当前位置Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B08E351A1A7505F500CD8086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Fung;
+				TargetAttributes = {
+					B08E35211A7505F500CD8086 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B08E353A1A7505F600CD8086 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B08E35211A7505F500CD8086;
+					};
+				};
+			};
+			buildConfigurationList = B08E351D1A7505F500CD8086 /* Build configuration list for PBXProject "04.MapKit-显示当前位置" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B08E35191A7505F500CD8086;
+			productRefGroup = B08E35231A7505F500CD8086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B08E35211A7505F500CD8086 /* 04.MapKit-显示当前位置 */,
+				B08E353A1A7505F600CD8086 /* 04.MapKit-显示当前位置Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B08E35201A7505F500CD8086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08E35311A7505F500CD8086 /* Main.storyboard in Resources */,
+				B08E35361A7505F500CD8086 /* LaunchScreen.xib in Resources */,
+				B08E35331A7505F500CD8086 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08E35391A7505F600CD8086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B08E351E1A7505F500CD8086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08E352E1A7505F500CD8086 /* ViewController.m in Sources */,
+				B08E352B1A7505F500CD8086 /* AppDelegate.m in Sources */,
+				B08E35281A7505F500CD8086 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08E35371A7505F600CD8086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08E35421A7505F600CD8086 /* _4_MapKit_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B08E353D1A7505F600CD8086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B08E35211A7505F500CD8086 /* 04.MapKit-显示当前位置 */;
+			targetProxy = B08E353C1A7505F600CD8086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B08E352F1A7505F500CD8086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B08E35301A7505F500CD8086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B08E35341A7505F500CD8086 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B08E35351A7505F500CD8086 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B08E35431A7505F600CD8086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B08E35441A7505F600CD8086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B08E35461A7505F600CD8086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04.MapKit-显示当前位置/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B08E35471A7505F600CD8086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04.MapKit-显示当前位置/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B08E35491A7505F600CD8086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "04.MapKit-显示当前位置Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04.MapKit-显示当前位置.app/04.MapKit-显示当前位置";
+			};
+			name = Debug;
+		};
+		B08E354A1A7505F600CD8086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "04.MapKit-显示当前位置Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04.MapKit-显示当前位置.app/04.MapKit-显示当前位置";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B08E351D1A7505F500CD8086 /* Build configuration list for PBXProject "04.MapKit-显示当前位置" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08E35431A7505F600CD8086 /* Debug */,
+				B08E35441A7505F600CD8086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B08E35451A7505F600CD8086 /* Build configuration list for PBXNativeTarget "04.MapKit-显示当前位置" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08E35461A7505F600CD8086 /* Debug */,
+				B08E35471A7505F600CD8086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B08E35481A7505F600CD8086 /* Build configuration list for PBXNativeTarget "04.MapKit-显示当前位置Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08E35491A7505F600CD8086 /* Debug */,
+				B08E354A1A7505F600CD8086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B08E351A1A7505F500CD8086 /* Project object */;
+}

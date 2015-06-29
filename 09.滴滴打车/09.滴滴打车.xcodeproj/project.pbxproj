@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0AD4BAA1A763D8100FF8770 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AD4BA91A763D8100FF8770 /* main.m */; };
+		B0AD4BAD1A763D8100FF8770 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AD4BAC1A763D8100FF8770 /* AppDelegate.m */; };
+		B0AD4BB01A763D8100FF8770 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AD4BAF1A763D8100FF8770 /* ViewController.m */; };
+		B0AD4BB31A763D8100FF8770 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0AD4BB11A763D8100FF8770 /* Main.storyboard */; };
+		B0AD4BB51A763D8100FF8770 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0AD4BB41A763D8100FF8770 /* Images.xcassets */; };
+		B0AD4BB81A763D8100FF8770 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0AD4BB61A763D8100FF8770 /* LaunchScreen.xib */; };
+		B0AD4BC41A763D8100FF8770 /* _9_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AD4BC31A763D8100FF8770 /* _9_____Tests.m */; };
+		B0AD4BD01A764ADE00FF8770 /* CZTaxi.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AD4BCF1A764ADE00FF8770 /* CZTaxi.m */; };
+		B0AD4BD41A764D1100FF8770 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B0AD4BD31A764D1100FF8770 /* data.json */; };
+		B0AD4BD61A76509700FF8770 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AD4BD51A76509700FF8770 /* MapKit.framework */; };
+		B0AD4BD91A76526700FF8770 /* CZTaxiLocationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AD4BD81A76526700FF8770 /* CZTaxiLocationAnnotation.m */; };
+		B0AD4BDC1A76556C00FF8770 /* CZTaxiLocationAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AD4BDB1A76556C00FF8770 /* CZTaxiLocationAnnotationView.m */; };
+		B0AD4BDF1A765B0B00FF8770 /* CZTaxiDetailAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AD4BDE1A765B0B00FF8770 /* CZTaxiDetailAnnotation.m */; };
+		B0AD4BE21A765C8E00FF8770 /* CZTaxiDetailAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AD4BE11A765C8E00FF8770 /* CZTaxiDetailAnnotationView.m */; };
+		B0AD4BE41A765C9900FF8770 /* CZTaxiDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0AD4BE31A765C9900FF8770 /* CZTaxiDetailView.xib */; };
+		B0AD4BE71A768C5000FF8770 /* CZTaxiDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AD4BE61A768C5000FF8770 /* CZTaxiDetailView.m */; };
+		B0B525B11A7736AA00E0DF41 /* OBShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B525AE1A7736AA00E0DF41 /* OBShapedButton.m */; };
+		B0B525B21A7736AA00E0DF41 /* UIImage+ColorAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B525B01A7736AA00E0DF41 /* UIImage+ColorAtPixel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0AD4BBE1A763D8100FF8770 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0AD4B9C1A763D8100FF8770 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0AD4BA31A763D8100FF8770;
+			remoteInfo = "09.滴滴打车";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0AD4BA41A763D8100FF8770 /* 09.滴滴打车.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "09.滴滴打车.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0AD4BA81A763D8100FF8770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0AD4BA91A763D8100FF8770 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0AD4BAB1A763D8100FF8770 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0AD4BAC1A763D8100FF8770 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0AD4BAE1A763D8100FF8770 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0AD4BAF1A763D8100FF8770 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0AD4BB21A763D8100FF8770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0AD4BB41A763D8100FF8770 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0AD4BB71A763D8100FF8770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B0AD4BBD1A763D8100FF8770 /* 09.滴滴打车Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "09.滴滴打车Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0AD4BC21A763D8100FF8770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0AD4BC31A763D8100FF8770 /* _9_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_9_____Tests.m"; sourceTree = "<group>"; };
+		B0AD4BCE1A764ADE00FF8770 /* CZTaxi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZTaxi.h; sourceTree = "<group>"; };
+		B0AD4BCF1A764ADE00FF8770 /* CZTaxi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZTaxi.m; sourceTree = "<group>"; };
+		B0AD4BD31A764D1100FF8770 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		B0AD4BD51A76509700FF8770 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B0AD4BD71A76526700FF8770 /* CZTaxiLocationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZTaxiLocationAnnotation.h; sourceTree = "<group>"; };
+		B0AD4BD81A76526700FF8770 /* CZTaxiLocationAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZTaxiLocationAnnotation.m; sourceTree = "<group>"; };
+		B0AD4BDA1A76556C00FF8770 /* CZTaxiLocationAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZTaxiLocationAnnotationView.h; sourceTree = "<group>"; };
+		B0AD4BDB1A76556C00FF8770 /* CZTaxiLocationAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZTaxiLocationAnnotationView.m; sourceTree = "<group>"; };
+		B0AD4BDD1A765B0B00FF8770 /* CZTaxiDetailAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZTaxiDetailAnnotation.h; sourceTree = "<group>"; };
+		B0AD4BDE1A765B0B00FF8770 /* CZTaxiDetailAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZTaxiDetailAnnotation.m; sourceTree = "<group>"; };
+		B0AD4BE01A765C8E00FF8770 /* CZTaxiDetailAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZTaxiDetailAnnotationView.h; sourceTree = "<group>"; };
+		B0AD4BE11A765C8E00FF8770 /* CZTaxiDetailAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZTaxiDetailAnnotationView.m; sourceTree = "<group>"; };
+		B0AD4BE31A765C9900FF8770 /* CZTaxiDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZTaxiDetailView.xib; sourceTree = "<group>"; };
+		B0AD4BE51A768C5000FF8770 /* CZTaxiDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZTaxiDetailView.h; sourceTree = "<group>"; };
+		B0AD4BE61A768C5000FF8770 /* CZTaxiDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZTaxiDetailView.m; sourceTree = "<group>"; };
+		B0B525AD1A7736AA00E0DF41 /* OBShapedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBShapedButton.h; sourceTree = "<group>"; };
+		B0B525AE1A7736AA00E0DF41 /* OBShapedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBShapedButton.m; sourceTree = "<group>"; };
+		B0B525AF1A7736AA00E0DF41 /* UIImage+ColorAtPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorAtPixel.h"; sourceTree = "<group>"; };
+		B0B525B01A7736AA00E0DF41 /* UIImage+ColorAtPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorAtPixel.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0AD4BA11A763D8100FF8770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0AD4BD61A76509700FF8770 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0AD4BBA1A763D8100FF8770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0AD4B9B1A763D8100FF8770 = {
+			isa = PBXGroup;
+			children = (
+				B0AD4BD51A76509700FF8770 /* MapKit.framework */,
+				B0AD4BA61A763D8100FF8770 /* 09.滴滴打车 */,
+				B0AD4BC01A763D8100FF8770 /* 09.滴滴打车Tests */,
+				B0AD4BA51A763D8100FF8770 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0AD4BA51A763D8100FF8770 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0AD4BA41A763D8100FF8770 /* 09.滴滴打车.app */,
+				B0AD4BBD1A763D8100FF8770 /* 09.滴滴打车Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0AD4BA61A763D8100FF8770 /* 09.滴滴打车 */ = {
+			isa = PBXGroup;
+			children = (
+				B0B525AB1A77367100E0DF41 /* Lib */,
+				B0AD4BE81A7695C800FF8770 /* Others */,
+				B0AD4BD11A764AE700FF8770 /* Model【数据模型】 */,
+				B0AD4BCD1A764A4E00FF8770 /* Annotation【地图标记模型】 */,
+				B0AD4BD21A764C0300FF8770 /* AnnotationView【地图标记视图】 */,
+				B0AD4BB11A763D8100FF8770 /* Main.storyboard */,
+				B0AD4BAE1A763D8100FF8770 /* ViewController.h */,
+				B0AD4BAF1A763D8100FF8770 /* ViewController.m */,
+				B0AD4BB41A763D8100FF8770 /* Images.xcassets */,
+				B0AD4BB61A763D8100FF8770 /* LaunchScreen.xib */,
+				B0AD4BA71A763D8100FF8770 /* Supporting Files */,
+			);
+			path = "09.滴滴打车";
+			sourceTree = "<group>";
+		};
+		B0AD4BA71A763D8100FF8770 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0AD4BA81A763D8100FF8770 /* Info.plist */,
+				B0AD4BA91A763D8100FF8770 /* main.m */,
+				B0AD4BD31A764D1100FF8770 /* data.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0AD4BC01A763D8100FF8770 /* 09.滴滴打车Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B0AD4BC31A763D8100FF8770 /* _9_____Tests.m */,
+				B0AD4BC11A763D8100FF8770 /* Supporting Files */,
+			);
+			path = "09.滴滴打车Tests";
+			sourceTree = "<group>";
+		};
+		B0AD4BC11A763D8100FF8770 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0AD4BC21A763D8100FF8770 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0AD4BCD1A764A4E00FF8770 /* Annotation【地图标记模型】 */ = {
+			isa = PBXGroup;
+			children = (
+				B0AD4BD71A76526700FF8770 /* CZTaxiLocationAnnotation.h */,
+				B0AD4BD81A76526700FF8770 /* CZTaxiLocationAnnotation.m */,
+				B0AD4BDD1A765B0B00FF8770 /* CZTaxiDetailAnnotation.h */,
+				B0AD4BDE1A765B0B00FF8770 /* CZTaxiDetailAnnotation.m */,
+			);
+			name = "Annotation【地图标记模型】";
+			sourceTree = "<group>";
+		};
+		B0AD4BD11A764AE700FF8770 /* Model【数据模型】 */ = {
+			isa = PBXGroup;
+			children = (
+				B0AD4BCE1A764ADE00FF8770 /* CZTaxi.h */,
+				B0AD4BCF1A764ADE00FF8770 /* CZTaxi.m */,
+			);
+			name = "Model【数据模型】";
+			sourceTree = "<group>";
+		};
+		B0AD4BD21A764C0300FF8770 /* AnnotationView【地图标记视图】 */ = {
+			isa = PBXGroup;
+			children = (
+				B0AD4BDA1A76556C00FF8770 /* CZTaxiLocationAnnotationView.h */,
+				B0AD4BDB1A76556C00FF8770 /* CZTaxiLocationAnnotationView.m */,
+				B0AD4BE01A765C8E00FF8770 /* CZTaxiDetailAnnotationView.h */,
+				B0AD4BE11A765C8E00FF8770 /* CZTaxiDetailAnnotationView.m */,
+				B0AD4BE51A768C5000FF8770 /* CZTaxiDetailView.h */,
+				B0AD4BE61A768C5000FF8770 /* CZTaxiDetailView.m */,
+				B0AD4BE31A765C9900FF8770 /* CZTaxiDetailView.xib */,
+			);
+			name = "AnnotationView【地图标记视图】";
+			sourceTree = "<group>";
+		};
+		B0AD4BE81A7695C800FF8770 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B0AD4BAB1A763D8100FF8770 /* AppDelegate.h */,
+				B0AD4BAC1A763D8100FF8770 /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		B0B525AB1A77367100E0DF41 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B0B525AC1A7736AA00E0DF41 /* shapedButton */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		B0B525AC1A7736AA00E0DF41 /* shapedButton */ = {
+			isa = PBXGroup;
+			children = (
+				B0B525AD1A7736AA00E0DF41 /* OBShapedButton.h */,
+				B0B525AE1A7736AA00E0DF41 /* OBShapedButton.m */,
+				B0B525AF1A7736AA00E0DF41 /* UIImage+ColorAtPixel.h */,
+				B0B525B01A7736AA00E0DF41 /* UIImage+ColorAtPixel.m */,
+			);
+			path = shapedButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0AD4BA31A763D8100FF8770 /* 09.滴滴打车 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0AD4BC71A763D8100FF8770 /* Build configuration list for PBXNativeTarget "09.滴滴打车" */;
+			buildPhases = (
+				B0AD4BA01A763D8100FF8770 /* Sources */,
+				B0AD4BA11A763D8100FF8770 /* Frameworks */,
+				B0AD4BA21A763D8100FF8770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "09.滴滴打车";
+			productName = "09.滴滴打车";
+			productReference = B0AD4BA41A763D8100FF8770 /* 09.滴滴打车.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0AD4BBC1A763D8100FF8770 /* 09.滴滴打车Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0AD4BCA1A763D8100FF8770 /* Build configuration list for PBXNativeTarget "09.滴滴打车Tests" */;
+			buildPhases = (
+				B0AD4BB91A763D8100FF8770 /* Sources */,
+				B0AD4BBA1A763D8100FF8770 /* Frameworks */,
+				B0AD4BBB1A763D8100FF8770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0AD4BBF1A763D8100FF8770 /* PBXTargetDependency */,
+			);
+			name = "09.滴滴打车Tests";
+			productName = "09.滴滴打车Tests";
+			productReference = B0AD4BBD1A763D8100FF8770 /* 09.滴滴打车Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0AD4B9C1A763D8100FF8770 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Fung;
+				TargetAttributes = {
+					B0AD4BA31A763D8100FF8770 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B0AD4BBC1A763D8100FF8770 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B0AD4BA31A763D8100FF8770;
+					};
+				};
+			};
+			buildConfigurationList = B0AD4B9F1A763D8100FF8770 /* Build configuration list for PBXProject "09.滴滴打车" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0AD4B9B1A763D8100FF8770;
+			productRefGroup = B0AD4BA51A763D8100FF8770 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0AD4BA31A763D8100FF8770 /* 09.滴滴打车 */,
+				B0AD4BBC1A763D8100FF8770 /* 09.滴滴打车Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0AD4BA21A763D8100FF8770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0AD4BB31A763D8100FF8770 /* Main.storyboard in Resources */,
+				B0AD4BB81A763D8100FF8770 /* LaunchScreen.xib in Resources */,
+				B0AD4BB51A763D8100FF8770 /* Images.xcassets in Resources */,
+				B0AD4BD41A764D1100FF8770 /* data.json in Resources */,
+				B0AD4BE41A765C9900FF8770 /* CZTaxiDetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0AD4BBB1A763D8100FF8770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0AD4BA01A763D8100FF8770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0AD4BB01A763D8100FF8770 /* ViewController.m in Sources */,
+				B0AD4BAD1A763D8100FF8770 /* AppDelegate.m in Sources */,
+				B0B525B21A7736AA00E0DF41 /* UIImage+ColorAtPixel.m in Sources */,
+				B0AD4BD01A764ADE00FF8770 /* CZTaxi.m in Sources */,
+				B0AD4BAA1A763D8100FF8770 /* main.m in Sources */,
+				B0AD4BDC1A76556C00FF8770 /* CZTaxiLocationAnnotationView.m in Sources */,
+				B0B525B11A7736AA00E0DF41 /* OBShapedButton.m in Sources */,
+				B0AD4BE71A768C5000FF8770 /* CZTaxiDetailView.m in Sources */,
+				B0AD4BDF1A765B0B00FF8770 /* CZTaxiDetailAnnotation.m in Sources */,
+				B0AD4BE21A765C8E00FF8770 /* CZTaxiDetailAnnotationView.m in Sources */,
+				B0AD4BD91A76526700FF8770 /* CZTaxiLocationAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0AD4BB91A763D8100FF8770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0AD4BC41A763D8100FF8770 /* _9_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0AD4BBF1A763D8100FF8770 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0AD4BA31A763D8100FF8770 /* 09.滴滴打车 */;
+			targetProxy = B0AD4BBE1A763D8100FF8770 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0AD4BB11A763D8100FF8770 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0AD4BB21A763D8100FF8770 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0AD4BB61A763D8100FF8770 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0AD4BB71A763D8100FF8770 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0AD4BC51A763D8100FF8770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0AD4BC61A763D8100FF8770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0AD4BC81A763D8100FF8770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "09.滴滴打车/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0AD4BC91A763D8100FF8770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "09.滴滴打车/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0AD4BCB1A763D8100FF8770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "09.滴滴打车Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/09.滴滴打车.app/09.滴滴打车";
+			};
+			name = Debug;
+		};
+		B0AD4BCC1A763D8100FF8770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "09.滴滴打车Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/09.滴滴打车.app/09.滴滴打车";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0AD4B9F1A763D8100FF8770 /* Build configuration list for PBXProject "09.滴滴打车" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0AD4BC51A763D8100FF8770 /* Debug */,
+				B0AD4BC61A763D8100FF8770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0AD4BC71A763D8100FF8770 /* Build configuration list for PBXNativeTarget "09.滴滴打车" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0AD4BC81A763D8100FF8770 /* Debug */,
+				B0AD4BC91A763D8100FF8770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0AD4BCA1A763D8100FF8770 /* Build configuration list for PBXNativeTarget "09.滴滴打车Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0AD4BCB1A763D8100FF8770 /* Debug */,
+				B0AD4BCC1A763D8100FF8770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0AD4B9C1A763D8100FF8770 /* Project object */;
+}
